@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+Assignment 2
+   Author: Anjali Patel
+   Date: 02/06/23   
+   
+   Filename: ap_styles.css
+*/
+
+
+
+/* Body Styles */
+body{
+    background-color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body > header{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: black;
+}
+
+
+
+/* Aside Styles */
+aside{
+    text-align: center; 
+}
+aside>img {
+    margin-top: 60px;
+    padding: 0px;
+}
+
+
+/* Section Styles */
+section{
+    font-family: "Times New Roman", Times, serif;
+}
+section>h1{
+    margin: 20px;
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+p{
+    margin: 20px;
+    font-size: 25px;
+    letter-spacing: none;
+    font-weight: normal;
+}
+
+p>a:link, p>a:visited{
+    color:rgb(0,0,225);
+    text-decoration: none;
+}
+
+p>a:hover, p>a:active{
+    color: rgb(255,203,165);
+    text-decoration: underline;
+}
+
+
+/* Navigation Styles */	
+nav>ul>li{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    outline: 5px solid blue;
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+}
+nav>ul>li>a:link, nav>ul>li>a:visited{
+    color: rgb(0,0,225);
+    text-decoration: none;
+    
+}
+nav>ul>li>a:hover, nav>ul>li>a:active{
+    color: rgb(255,203,165);
+    text-decoration: underline;
+}
+nav>ol>li{
+    list-style-type: square;
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+
+
+/* Footer Styles */
+footer{
+    text-align: center;
+    color: rgb(61,61,61);
+    word-spacing: normal;
+}
+
+
+
+

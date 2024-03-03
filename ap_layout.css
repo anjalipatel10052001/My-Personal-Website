@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*
+Assignment 3
+   Author: Anjali Patel
+   Date: 03/09/23   
+   
+   Filename: ap_layout.css
+*/
+
+
+body>nav>ol>li {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 20px;
+    display: block;
+    outline: 5px solid blue;
+    margin: 20px;
+    padding: 10px;
+}
+nav>ol>li>a:link, nav>ol>li>a:visited {
+    color: rgb(0,0,225);
+    text-decoration: none;
+}
+nav>ol>li>a:hover, nav>ol>li>a:active{
+    color: rgb(255,203,165);
+    text-decoration: underline;
+}
+
+section {
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+}
+
+div.skillbox {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: lighter;
+    margin-top: 1px;
+    margin-bottom: 35px;
+}
+div#skill1 {
+    display: block;
+    clear: both;
+    float: left;
+    width: 50%;
+}
+div#skill2 {
+    display: block;
+    float: right;
+    width: 50%;
+}
+div#skill3 {
+    display: block;
+    clear: both;
+    float: left;
+    width: 50%;
+}
+div#skill4 {
+    display: block;
+    float: right;
+    width: 50%;
+}
+div#skill5 {
+    display: block;
+    clear: both;
+    float: left;
+    width: 50%;
+}
+div#skill6, video {
+    display: block;
+    float: right;
+    width: 50%;
+}
+
+div#skill6 > dt {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+div#skill6 > dd {
+    float: right;
+    font-size: 20px;
+    font-style: italic;
+}
+
+video {
+    width: 400px;
+    height: 550px;
+    margin-right: 100px;
+}
+
+::cue{
+    color:black;
+    font: 20px serif;
+}
+
+::cue(.Main){
+    text-shadow: black;
+    font: 20px serif;
+}
+
+div#skill7 {
+    display: block;
+    clear: both;
+    float: right;
+    width: 100%;
+}
+
+div#skill7 > dt {
+    margin: 20px;
+}
+
+div#skill7 > dd {
+    font-size: 20px;
+    font-style: italic;
+}
+
+audio {
+   box-shadow: black 5px 5px 5px 5px; 
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+dd, dt {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: none;
+    font-weight: normal;
+}
+
+footer {
+    display: block;
+    clear: both;
+    text-align: center;
+    color: rgb(61,61,61);
+    font-size: 25px;
+    word-spacing: normal;
+}
+
+

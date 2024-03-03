@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*
+Assignment 3
+   Author: Anjali Patel
+   Date: 03/09/23   
+   
+   Filename: ap_style2.css
+*/
+
+
+/* HTML Styles */
+html{
+    background-image: url(ap_graphicback.png);
+    background-size: auto auto;
+}
+
+/* Body Styles */
+body > header > h1{
+    text-shadow: skyblue 5px 5px 3px;
+}
+
+body > nav > ul > li > a{
+    box-shadow: inset skyblue 0px 0px 3px 3px;
+}
+
+
+/* Aside Styles */
+aside > figcaption{
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: italic;
+}
+img{
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    box-shadow: skyblue 10px 10px 10px 10px;
+    transform: rotateY(30deg);
+}
+
+
+
+
